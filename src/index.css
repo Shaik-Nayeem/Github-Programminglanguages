@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html,body,#app{
+  margin:0;
+  height:100%;
+  width:100%;
+  }
+  
+  ul{
+    padding:0
+
+  }
+
+  li{
+
+    list-style-type: none;
+  }
+  .flex-center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+  .container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:50px;
+  }
+
+.btn-clear{
+
+  border:none;
+  background: transparent;
+}
+  .nav-link{
+
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color:inherit;
+  }
+  .grid{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    
+  }
+.space-around{
+
+  justify-content: space-around;
+}
+  
+  .header-lg{
+
+    margin:20px;
+    font-size:24px;
+    font-weight: 300;
+
+  }
+  .header-sm{
+
+    font-size: 28px;
+    font-weight: 300;
+    margin:10px
+  }
+  .avatar{
+
+    height: 150px;
+    width:150px;
+    border-radius: 3px;
+    margin:0 auto;
+    display:block;
+  }
+  .center-text{
+    text-align: center;
+  }
+  .link{
+
+    color:rgb(187,46,31);
+    text-decoration:none;
+    font-weight:bold;
+  }
+  .card-list{
+    margin:20px 0;
+    font-size: 20px;
+  }
+  .card-list li{
+
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+  }
+  .card-list svg{
+
+    margin-right: 10px;
+  }
+  .card-list a{
+    font-weight: 500;
+    color: inherit;
+  }
+.text-center{
+
+  text-align: center;
+  font-size:25px;
+  font-weight: bold;
+
+}
+  .bg-light{
+    background: rgba(0,0,0,0.08);
+    border-radius: 3px;
+  }
+
+
+  .repo{
+
+    margin: 10px 0;
+    width: 250px;
+    padding: 20px;
+  }
+  .repo a{
+text-decoration:none ;
+  }
+  .repo img{
+    margin-bottom: 8px;
+  }
+  .instructions-container{
+
+    margin:100px 0;
+
+  }
+
+   .container-sm{
+    width:80%;
+    margin:0 auto;
+  }
+
+  .battle-instructions li{
+
+    flex:1;
+    min-width:300px;
+  } 
+
+  .battle-instructions svg{
+    padding: 48px;
+    border-radius: 3px;
+  } 
+  .header{
+    text-align: center;
+    font-size: 300;
+  }
+ 
+
+  .btn{
+    padding:2px;
+    margin-left:5px;
+  }
